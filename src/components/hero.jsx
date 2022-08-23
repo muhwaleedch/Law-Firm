@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react'
 import ScrollReveal from 'scrollreveal'
 
-import { NewsletterForm } from './newsletter-form'
+// import { NewsletterForm } from './newsletter-form'
 
 export function Hero({ title, content, illustration }) {
   const scrollRevealRef = useRef([])
@@ -22,13 +22,13 @@ export function Hero({ title, content, illustration }) {
     return () => ScrollReveal().destroy()
   }, [])
 
-  function onNewsletterSubmit(values) {
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        resolve({ values })
-      }, 1000)
-    })
-  }
+  // function onNewsletterSubmit(values) {
+  //   return new Promise((resolve) => {
+  //     setTimeout(() => {
+  //       resolve({ values })
+  //     }, 1000)
+  //   })
+  // }
 
   return (
     <section className="text-center lg:w-full lg:py-20 lg:text-left">
@@ -54,11 +54,11 @@ export function Hero({ title, content, illustration }) {
             </div>
 
             <div ref={(el) => (scrollRevealRef.current[2] = el)}>
-              <NewsletterForm
+              {/* <NewsletterForm
                 className="m-0 mt-8 max-w-md md:flex"
                 submitBtn="Get early access"
                 onSubmit={onNewsletterSubmit}
-              />
+              /> */}
             </div>
           </div>
 

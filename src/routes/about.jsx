@@ -9,19 +9,21 @@ export default function AboutPage() {
       <Article>
         <ArticleContent title="About">
           <p>
-            Holly is a free HTML/CSS landing page designed and developed by
-            @pacovitiello and @DavidePacilio!
+          Founded in 2000, Chaudhary Waleed, formerly Chaudhary Attorneys, provides legal services in the areas of  legal due diligence, contracts, company incorporation, intellectual property, merger and competition law,
+           white collar crime, commercial litigation and domestic and international arbitration.
           </p>
           <p>
-            Holly is suitable for all kind of startups, it's easily
-            customizable, and it's downloadable for personal and commercial use.
+          For the past 11 years in a row, our firm has been recommended by the Legal 500 as one of Pakistan’s leading law firms.  
+           The combination of our lawyers’ local and international experience enables our firm to have a deeper understanding of the 
+           requirements and objectives of our international clients and offer strategic legal advice on relevant
+           issues and devise effective legal strategies in connection with both domestic and international litigation and arbitration.
           </p>
-          <p>This template is distributed under the MIT License.</p>
+          
         </ArticleContent>
 
         <ArticleMedia>
           <img
-            src="https://picsum.photos/420/640?grayscale"
+            src="/assets/law.png"
             alt="Lorem Picsum"
           />
         </ArticleMedia>

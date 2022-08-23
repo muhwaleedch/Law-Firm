@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import { Logo } from './logo'
 
+
 export function Header({ title = '' }) {
   return (
     <header className="relative py-6">

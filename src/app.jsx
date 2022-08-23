@@ -7,14 +7,10 @@ import About from './routes/about'
 import Contact from './routes/contact'
 import Faqs from './routes/faqs'
 import Support from './routes/support'
+import Signin from './routes/signin'
 
 export default function App() {
-  /**
-   * Vite exposes env variables on the special import.meta.env object.
-   * Basename needs to be set for GitHub Pages to function properly.
-   *
-   * @link https://vitejs.dev/guide/env-and-mode.html
-   */
+ 
   const basename = import.meta.env.BASE_URL
 
   return (
@@ -26,6 +22,7 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="faqs" element={<Faqs />} />
           <Route path="support" element={<Support />} />
+          <Route path="signin" element={<Signin />} />
         </Routes>
       </ScrollToTop>
     </BrowserRouter>

@@ -8,8 +8,8 @@ export default function HomePage() {
   return (
     <Layout>
       <Hero
-        title="Landing template for startups"
-        content="Our landing page template works for all the devices, so you only have to setup it once, and get beautiful results forever."
+        title="Chaudhary Attorneys"
+        content="The highly professional team of experienced and expert lawyers from Chaudhary Attorneys is at your back and call and is ready to offer you sound legal advice. It represents and protects your interests on all appropriate forums."
         illustration={<HeroIllustration />}
       />
     </Layout>
